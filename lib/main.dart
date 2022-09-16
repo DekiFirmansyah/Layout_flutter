@@ -114,11 +114,14 @@ class _MyHomePageState extends State<MyHomePage> {
                     ],
                   ),
                   Container(
+                      color: Colors.blue,
                       padding: const EdgeInsets.all(10.0),
                       alignment: Alignment.centerLeft,
                       child: const Text('AFF Suzuki Cup 2020',
                           style: TextStyle(
-                              fontSize: 14, fontFamily: 'open sans'))),
+                              fontSize: 14,
+                              color: Colors.white,
+                              fontFamily: 'open sans'))),
                 ],
               ),
             ),
